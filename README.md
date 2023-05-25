@@ -1,1 +1,2 @@
-bla bla bla bla bla
+#this is the README file
+#idk tbh
