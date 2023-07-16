@@ -1,0 +1,13 @@
+<%- include("partials/header") %>
+
+<section id="Featured">
+    <% Products.forEach( (product) => {%>
+    <a href="<%= product.code%>">
+        <div class="product">
+            <h3><%= product.name%></h3>
+            <h3><%= product.manufacturer%></h3>
+            <p style="color:green"> Price : <%= product.price%> $</p>
+        </div>
+    </a>
+    <% });%>
+</section>
